@@ -1,0 +1,294 @@
+.mainContainer {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcdaff;
+  padding: 60px 50px 40px 50px;
+  max-height: 10px;
+}
+
+.link {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.carrito {
+  width: 40px;
+  height: 40px;
+}
+
+.carrito1 {
+  width: 40px;
+  height: 40px;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px 2px #0000005d;
+  transition: 0.2s;
+}
+
+.title {
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(41, 41, 41);
+}
+
+.buttonLanding {
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 60%;
+}
+
+.titleEspecial {
+  font-family: "Prata", serif;
+  font-size: 50px;
+  margin-left: 30px;
+  color: rgba(41, 41, 41, 0.844);
+}
+
+.loginSing {
+  display: flex;
+}
+
+.titleLogin {
+  margin: 45px;
+  color: rgba(41, 41, 41, 0.844);
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(252, 218, 255);
+  padding: 60px 50px 40px 50px;
+  max-height: 10px;
+}
+
+.link {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px 2px #0000005d;
+  transition: 0.2s;
+}
+
+.title {
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(41, 41, 41);
+}
+
+.buttons {
+  height: 40px;
+  width: 110px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+  margin-left: -4%;
+}
+
+.titleEspecial {
+  font-family: "Prata", serif;
+  font-size: 50px;
+  margin-left: 30px;
+  color: rgba(41, 41, 41, 0.844);
+}
+
+.loginSing {
+  display: flex;
+  align-items: center;
+}
+
+.titleLogin {
+  margin: 45px;
+  color: rgba(41, 41, 41, 0.844);
+}
+
+.logoutButton {
+  /* Estilos para el botón de Log out */
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  color: rgba(41, 41, 41, 0.844);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.logoutButton:hover {
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+.nav__img {
+  height: 15%;
+  width: 15%;
+}
+
+/***************** Ventana de dialogo ************************/
+
+.contenedor_imagen {
+  position: relative;
+  display: inline-block;
+  margin: 0px -18px 0px 0px;
+}
+
+.texto_imagen {
+  display: none;
+  position: absolute;
+
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -150px;
+  border-radius: 10px;
+}
+.contenedor_imagen:hover .texto_imagen {
+  display: block;
+  transform: translateY(5px);
+  transition: all 1s ease-in-out;
+}
+
+.button {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  color: #383838;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #eeeeee;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.467);
+  color: #000000;
+  transform: translateY(-1px);
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
+
+.svg {
+  width: 45px;
+  margin-right: 40px;
+}
+
+.svg2 {
+  width: 45px;
+  margin-right: 40px;
+}
+
+.svg2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+
+.svg33 {
+  width: 45px;
+  margin-right: 40px;
+}
+
+.svg:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.numberCarrito {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  height: 30%;
+  width: 25px;
+  margin-top: 55%;
+  margin-left: 55%;
+  background-color: rgb(255, 252, 56);
+}
+
+.containerNumberSvg:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.buttonAlert{
+  background-color: transparent;
+  border: none;
+}
+
+.containerFavorites {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  height: 30%;
+  width: 25px;
+  right: 20px;
+  top: 44px;
+  border-radius: 50%;
+  background-color: rgb(219, 70, 70);
+}
+
+.containerFavoritesSvg{
+  position: relative;
+  margin-right: 40px;
+}
+
+.containerFavoritesSvg:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.2s;
+
+}
